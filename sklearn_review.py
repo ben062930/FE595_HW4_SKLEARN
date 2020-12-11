@@ -39,7 +39,7 @@ rank = coef.abs().sort_values(axis=1, by=['coef'], ascending=False)
 variable_list = rank.columns.values.tolist()
 
 #from greatest impact ot lowest impact
-coef[variable_list]
+print(coef[variable_list])
 
 
 ###since no evaluation is required, I don't divide the original data into test and train subgrop
